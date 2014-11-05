@@ -5,6 +5,8 @@ Microsoft Office 2003 Excel XML Reading Library
 
 제가 업무에 쓰기 위해서 간략히 개발한 라이브러리입니다.
 
+현재 편집중입니다..
+
 
 Examples:
 <pre><code>

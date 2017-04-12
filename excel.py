@@ -71,9 +71,9 @@ class ExcelLib:
         build_rows = []
 
         # 헤더라인을 미리 가져온다(컬럼명 라인 - 사용자가 입력한)
-        row_header = rows[2]
+        row_header = rows[0]
 
-        for i, row in enumerate(rows[3:]):
+        for i, row in enumerate(rows[2:]):
             data_row_meta = RowMapper(row_header, row, self.styles)
             build_rows.append(data_row_meta)
 

@@ -5,7 +5,7 @@ Microsoft Office 2003 Excel XML Reading Library
 
 제가 업무에 쓰기 위해서 간략히 개발한 라이브러리입니다.
 
-셀에 포함되어 있는 데이터 타입은 String과 Datetime(ISO) 형식만 지원합니다.
+현재 편집중입니다..
 
 
 Examples:
@@ -34,7 +34,5 @@ Workbook/
             Row/
                 Cell/
                     @ss:StyleID
-                    @ss:Index
-                    Data/
-                        @ss:Type
+                    Data
 </pre>

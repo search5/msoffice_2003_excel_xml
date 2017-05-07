@@ -88,8 +88,8 @@ class ColumnMapper:
         cell_data = cell.find("./{%s}Data" % self.namespaces['ns'])
 
         # Type 속성값을 가져온다 없는 경우 None을 반환한다
-        cell_data_type = cell_data.get("{0}Type".format(self.namespaces['ss']))
-        if cell_data_type:
+        cell_data_type = cell_data.get("{%s}Type" % self.namespaces['ss'])
+        if cell_data_type == "DateTime":
             self.is_date = True
 
         if cell_data != None:
